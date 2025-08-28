@@ -76,7 +76,6 @@ export default function Features() {
               <div
                 className={`w-16 h-16 mx-auto flex items-center justify-center rounded-lg shadow-md ${colorClasses[f.color]}`}
               >
-                {/* Aquí agregamos la imagen como icono */}
                 <img
                   src={f.img}
                   alt={f.title}
