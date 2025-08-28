@@ -1,3 +1,5 @@
+import { FaArrowRight } from "react-icons/fa";
+
 export default function Services() {
   const services = [
     {
@@ -24,8 +26,8 @@ export default function Services() {
         backgroundImage: "url('/themewagon/2.services/illustration1.png')",
       }}
     >
-      <div className="bg-white/80 backdrop-blur-sm">
-        <div className="container relative py-16">
+      <div className="bg-white/80 backdrop-blur-sm py-25">
+        <div className="container relative">
           <div className="container relative z-10">
             {/* Header */}
             <div className="max-w-2xl mx-auto text-center py-10">
@@ -42,7 +44,7 @@ export default function Services() {
               {services.map((s, i) => (
                 <div
                   key={i}
-                  className="p-6 rounded-2xl border bg-white shadow-sm hover:shadow-md transition"
+                  className="p-6 rounded-2xl border border-white/30 bg-white/50 backdrop-blur-md shadow-sm hover:shadow-md transition"
                 >
                   <div className="text-center">
                     <img
@@ -62,23 +64,7 @@ export default function Services() {
                     className="mt-4 inline-flex items-center text-primary font-medium text-sm hover:underline"
                   >
                     Learn more
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      className="ml-1"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 
-                      5.354a.5.5 0 1 1 .708-.708l3 
-                      3a.5.5 0 0 1 0 .708l-3 
-                      3a.5.5 0 0 1-.708-.708L10.293 
-                      8.5H4.5A.5.5 0 0 1 4 8z"
-                      />
-                    </svg>
+                    <FaArrowRight className="ml-1 w-4 h-4" />
                   </a>
                 </div>
               ))}

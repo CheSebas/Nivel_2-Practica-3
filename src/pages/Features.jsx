@@ -48,7 +48,7 @@ export default function Features() {
   };
 
   return (
-    <section className="relative section bg-white overflow-hidden">
+    <section className="relative section bg-white overflow-hidden py-25">
       {/* Fondo decorativo */}
       <div
         className="absolute top-0 right-0 w-full h-full bg-no-repeat bg-right bg-contain opacity-20 pointer-events-none"
@@ -59,7 +59,7 @@ export default function Features() {
 
       <div className="container relative">
         {/* Header */}
-        <div className="max-w-2xl mx-auto text-center mb-12 py-10">
+        <div className="max-w-2xl mx-auto text-center mt-7 mb-12">
           <h2 className="text-3xl font-bold mb-4">Features</h2>
           <p className="text-gray-600">
             We provide a number of excellent features that will undoubtedly
@@ -69,7 +69,7 @@ export default function Features() {
         </div>
 
         {/* Features grid */}
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 py-10">
           {features.map((f, i) => (
             <div key={i} className="text-center px-4">
               {/* Icon wrapper */}

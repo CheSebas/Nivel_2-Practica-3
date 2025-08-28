@@ -9,7 +9,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="relative section bg-white overflow-hidden">
+    <section className="relative section bg-white overflow-hidden py-25">
       {/* Fondo decorativo */}
       <div
         className="absolute top-0 right-0 w-full h-full bg-no-repeat bg-right bg-contain opacity-20 pointer-events-none"
@@ -29,25 +29,36 @@ export default function Projects() {
         </div>
 
         {/* Card contenedor con proyectos */}
-        <div className="bg-white shadow-lg rounded-2xl p-6 mx-auto max-w-6xl">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {projects.map((src, i) => (
-              <div key={i} className="flex flex-col items-center">
-                <img
-                  src={src}
-                  alt={`project-${i + 1}`}
-                  className="rounded-xl mb-4 w-80 max-w-full"
-                />
-                {/* segundo proyecto en la misma columna */}
-                {projects[i + 1] && i % 2 === 0 && (
-                  <img
-                    src={projects[i + 1]}
-                    alt={`project-${i + 2}`}
-                    className="rounded-xl w-80 max-w-full"
-                  />
-                )}
-              </div>
-            ))}
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white border border-white shadow-lg rounded-2xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {projects
+                .reduce((cols, project, index) => {
+                  if (index % 2 === 0) {
+                    cols.push([project, projects[index + 1]]);
+                  }
+                  return cols;
+                }, [])
+                .map((pair, i) => (
+                  <div
+                    key={i}
+                    className="flex flex-col items-center text-center"
+                  >
+                    <img
+                      src={pair[0]}
+                      alt={`project-${i * 2 + 1}`}
+                      className="mb-3 md:mb-3 lg:mb-3 img-fluid w-80 max-w-full"
+                    />
+                    {pair[1] && (
+                      <img
+                        src={pair[1]}
+                        alt={`project-${i * 2 + 2}`}
+                        className="mb-3 md:mb-0 img-fluid w-80 max-w-full"
+                      />
+                    )}
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
 

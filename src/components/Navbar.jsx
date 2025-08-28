@@ -20,8 +20,8 @@ export default function Navbar() {
   const inactive = "text-gray-700 hover:text-primary";
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-white shadow-sm">
-      <div className="container flex items-center justify-between h-16">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/50 backdrop-blur-md border-b border-white shadow-sm">
+      <div className="max-w-screen-2xl mx-auto flex items-center justify-between h-16 px-4">
         {/* Logo */}
         <Link to="/" className="text-xl font-semibold tracking-tight">
           Che<span className="text-gray-400">Sebas</span>

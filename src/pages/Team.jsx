@@ -27,7 +27,7 @@ const people = [
 
 export default function Team() {
   return (
-    <section className="relative section bg-white overflow-hidden">
+    <section className="relative section bg-white overflow-hidden py-25">
       {/* Fondo decorativo */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-left-top bg-contain opacity-20 pointer-events-none"
@@ -36,7 +36,7 @@ export default function Team() {
 
       <div className="container relative">
         {/* Header */}
-        <div className="max-w-2xl mx-auto text-center mb-12 py-16">
+        <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Team</h2>
           <p className="text-gray-600">
             People from various origins, cultures, and personalities make up our

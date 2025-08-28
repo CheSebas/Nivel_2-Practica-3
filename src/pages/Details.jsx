@@ -20,7 +20,7 @@ export default function Details() {
   ];
 
   return (
-    <section className="relative section overflow-hidden">
+    <section className="relative section overflow-hidden py-25">
       {/* Fondos decorativos */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"

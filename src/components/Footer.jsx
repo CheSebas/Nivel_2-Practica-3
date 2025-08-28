@@ -1,3 +1,11 @@
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaYoutube,
+  FaRegEnvelope,
+} from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="relative pt-10">
@@ -112,33 +120,17 @@ export default function Footer() {
           <div>
             <h5 className="text-gray-700 font-bold mb-3">Follow Us</h5>
             <div className="flex gap-3 mb-4">
-              <a href="#!">
-                <img
-                  src="/themewagon/icons/facebook.svg"
-                  alt="Facebook"
-                  className="w-6 h-6"
-                />
+              <a href="#!" className="hover:text-blue-600">
+                <FaFacebookF />
               </a>
-              <a href="#!">
-                <img
-                  src="/themewagon/icons/twitter.svg"
-                  alt="Twitter"
-                  className="w-6 h-6"
-                />
+              <a href="#!" className="hover:text-sky-400">
+                <FaTwitter />
               </a>
-              <a href="#!">
-                <img
-                  src="/themewagon/icons/linkedin.svg"
-                  alt="LinkedIn"
-                  className="w-6 h-6"
-                />
+              <a href="#!" className="hover:text-blue-700">
+                <FaLinkedinIn />
               </a>
-              <a href="#!">
-                <img
-                  src="/themewagon/icons/youtube.svg"
-                  alt="YouTube"
-                  className="w-6 h-6"
-                />
+              <a href="#!" className="hover:text-red-600">
+                <FaYoutube />
               </a>
             </div>
             <p className="font-semibold mb-2">Subscribe to our newsletter</p>
@@ -148,21 +140,7 @@ export default function Footer() {
                 placeholder="Email"
                 className="w-full rounded-full border border-gray-300 py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
               />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 
-                1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 
-                4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 
-                14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 
-                9.586l-1.239-.757zm3.436-.586L16 
-                11.801V4.697l-5.803 3.546z"
-                />
-              </svg>
+              <FaRegEnvelope className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
             </form>
           </div>
         </div>
