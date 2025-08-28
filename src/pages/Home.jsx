@@ -7,13 +7,13 @@ export default function Home() {
         <div
           className="hidden md:block absolute inset-0 bg-no-repeat bg-right-bottom bg-contain"
           style={{
-            backgroundImage: "url('/themewagon/1.home/illustration1.png')",
+            backgroundImage: "url('themewagon/1.home/illustration1.png')",
           }}
         />
         <div
           className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-40"
           style={{
-            backgroundImage: "url('/themewagon/1.home/heroheader-bg.png')",
+            backgroundImage: "url('themewagon/1.home/heroheader-bg.png')",
           }}
         />
 
@@ -49,27 +49,27 @@ export default function Home() {
 
           {/* Logos */}
           <img
-            src="/themewagon/1.home/google.png"
+            src="themewagon/1.home/google.png"
             alt="Google"
             className="h-14 md:h-16"
           />
           <img
-            src="/themewagon/1.home/netflix.png"
+            src="themewagon/1.home/netflix.png"
             alt="Netflix"
             className="h-14 md:h-16"
           />
           <img
-            src="/themewagon/1.home/microsoft.png"
+            src="themewagon/1.home/microsoft.png"
             alt="Microsoft"
             className="h-14 md:h-16"
           />
           <img
-            src="/themewagon/1.home/themewagon.png"
+            src="themewagon/1.home/themewagon.png"
             alt="ThemeWagon"
             className="h-14 md:h-16"
           />
           <img
-            src="/themewagon/1.home/mailbuster.png"
+            src="themewagon/1.home/mailbuster.png"
             alt="MailBluster"
             className="h-14 md:h-16"
           />
