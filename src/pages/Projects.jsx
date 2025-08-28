@@ -10,14 +10,6 @@ export default function Projects() {
 
   return (
     <section className="relative section bg-white overflow-hidden py-25">
-      {/* Fondo decorativo */}
-      <div
-        className="absolute top-0 right-0 w-full h-full bg-no-repeat bg-right bg-contain opacity-20 pointer-events-none"
-        style={{
-          backgroundImage: "url('themewagon/projects/project-bg.png')",
-        }}
-      />
-
       <div className="container relative">
         {/* Header */}
         <div className="max-w-2xl mx-auto text-center mb-12 py-16">
