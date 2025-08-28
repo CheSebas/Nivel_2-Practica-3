@@ -12,7 +12,7 @@ export default function Footer() {
       {/* Fondo decorativo */}
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center opacity-30"
-        style={{ backgroundImage: "url('/themewagon/footer/image1.png')" }}
+        style={{ backgroundImage: "url('themewagon/footer/image1.png')" }}
       />
 
       {/* Contenido */}

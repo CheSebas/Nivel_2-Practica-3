@@ -3,37 +3,37 @@ export default function Features() {
     {
       title: "Encrypted Mail",
       desc: "A process of encrypting email communications",
-      img: "/themewagon/4.features/icon1.png",
+      img: "themewagon/4.features/icon1.png",
       color: "red",
     },
     {
       title: "Display Sharing",
       desc: "With other participants, you may share your screen",
-      img: "/themewagon/4.features/icon2.png",
+      img: "themewagon/4.features/icon2.png",
       color: "blue",
     },
     {
       title: "Private Notebook",
       desc: "Private Notebook is an application that is protected",
-      img: "/themewagon/4.features/icon3.png",
+      img: "themewagon/4.features/icon3.png",
       color: "yellow",
     },
     {
       title: "App Assistance",
       desc: "App Assistant is quickly and effectively ran the system",
-      img: "/themewagon/4.features/icon4.png",
+      img: "themewagon/4.features/icon4.png",
       color: "green",
     },
     {
       title: "Multiple Printing",
       desc: "Our canvas prints are crafted on top-notch canvas.",
-      img: "/themewagon/4.features/icon5.png",
+      img: "themewagon/4.features/icon5.png",
       color: "purple",
     },
     {
       title: "Free Sketch",
       desc: "Our canvas prints are crafted on top-notch canvas.",
-      img: "/themewagon/4.features/icon6.png",
+      img: "themewagon/4.features/icon6.png",
       color: "cyan",
     },
   ];
@@ -53,7 +53,7 @@ export default function Features() {
       <div
         className="absolute top-0 right-0 w-full h-full bg-no-repeat bg-right bg-contain opacity-20 pointer-events-none"
         style={{
-          backgroundImage: "url('/themewagon/4.features/feature-bg.png')",
+          backgroundImage: "url('themewagon/4.features/feature-bg.png')",
         }}
       />
 

@@ -2,25 +2,25 @@ const people = [
   {
     name: "John Adams",
     role: "CEO",
-    image: "/themewagon/6.team/image1.png",
+    image: "themewagon/6.team/image1.png",
     shadow: "shadow-square-right",
   },
   {
     name: "Carrey Johnson",
     role: "Senior Developer",
-    image: "/themewagon/6.team/image2.png",
+    image: "themewagon/6.team/image2.png",
     shadow: "shadow-square-left",
   },
   {
     name: "Ray Marie",
     role: "Developer",
-    image: "/themewagon/6.team/image3.png",
+    image: "themewagon/6.team/image3.png",
     shadow: "shadow-square-right",
   },
   {
     name: "Austin Min",
     role: "Designer",
-    image: "/themewagon/6.team/image4.png",
+    image: "themewagon/6.team/image4.png",
     shadow: "shadow-square-left",
   },
 ];
@@ -31,7 +31,7 @@ export default function Team() {
       {/* Fondo decorativo */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-left-top bg-contain opacity-20 pointer-events-none"
-        style={{ backgroundImage: "url('/themewagon/team/team-bg.png')" }}
+        style={{ backgroundImage: "url('themewagon/team/team-bg.png')" }}
       />
 
       <div className="container relative">

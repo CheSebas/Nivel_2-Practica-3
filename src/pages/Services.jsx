@@ -5,17 +5,17 @@ export default function Services() {
     {
       title: "Send Texts Instantly",
       desc: "Financial planning, forecasting and adjusting rapidly with customer demands and budgets.",
-      icon: "/themewagon/2.services/icon1.png",
+      icon: "themewagon/2.services/icon1.png",
     },
     {
       title: "Better Organized",
       desc: "Latest technology and experienced guidance, trained HR specialists to keep updated.",
-      icon: "/themewagon/2.services/icon2.png",
+      icon: "themewagon/2.services/icon2.png",
     },
     {
       title: "Analytical Statistics",
       desc: "Messages, real-time reminders, memos, and many more will keep your team in sync.",
-      icon: "/themewagon/2.services/icon3.png",
+      icon: "themewagon/2.services/icon3.png",
     },
   ];
 
@@ -23,7 +23,7 @@ export default function Services() {
     <section
       className="relative section overflow-hidden bg-no-repeat bg-cover bg-center"
       style={{
-        backgroundImage: "url('/themewagon/2.services/illustration1.png')",
+        backgroundImage: "url('themewagon/2.services/illustration1.png')",
       }}
     >
       <div className="bg-white/80 backdrop-blur-sm py-25">

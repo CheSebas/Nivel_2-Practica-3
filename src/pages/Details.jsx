@@ -6,7 +6,7 @@ export default function Details() {
         "Today, I'd like to show you some incredible Sign Up screen app UI ideas and concepts that offer a modern user experience. The most stunning, cutting-edge UI/UX.",
       desc2:
         "Klean is an elegant HTML5 template and a perfect starting point for your next SaaS oriented site, carefully curated by ThemeWagon.",
-      img: "/themewagon/3.details/illustration3.png",
+      img: "themewagon/3.details/illustration3.png",
     },
     {
       title: "Devoted to defining the cutting edge.",
@@ -14,7 +14,7 @@ export default function Details() {
         '"This new creation is cutting-edge technology," says the researcher, "whose study originates from a business at the forefront of space science."',
       desc2:
         "Klean is a free Bootstrap 5 template for multipurpose landing pages. This design is a perfect choice, carefully curated by ThemeWagon.",
-      img: "/themewagon/3.details/illustration6.png",
+      img: "themewagon/3.details/illustration6.png",
       reverse: true,
     },
   ];
@@ -25,13 +25,13 @@ export default function Details() {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
-          backgroundImage: "url('/themewagon/3.details/illustration1.png')",
+          backgroundImage: "url('themewagon/3.details/illustration1.png')",
         }}
       />
       <div
         className="absolute inset-0 bg-no-repeat bg-contain bg-left-top opacity-40"
         style={{
-          backgroundImage: "url('/themewagon/3.details/illustration2.png')",
+          backgroundImage: "url('themewagon/3.details/illustration2.png')",
         }}
       />
 

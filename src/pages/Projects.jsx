@@ -1,11 +1,11 @@
 export default function Projects() {
   const projects = [
-    "/themewagon/5.projects/image1.png",
-    "/themewagon/5.projects/image2.png",
-    "/themewagon/5.projects/image3.png",
-    "/themewagon/5.projects/image4.png",
-    "/themewagon/5.projects/image5.png",
-    "/themewagon/5.projects/image6.png",
+    "themewagon/5.projects/image1.png",
+    "themewagon/5.projects/image2.png",
+    "themewagon/5.projects/image3.png",
+    "themewagon/5.projects/image4.png",
+    "themewagon/5.projects/image5.png",
+    "themewagon/5.projects/image6.png",
   ];
 
   return (
@@ -14,7 +14,7 @@ export default function Projects() {
       <div
         className="absolute top-0 right-0 w-full h-full bg-no-repeat bg-right bg-contain opacity-20 pointer-events-none"
         style={{
-          backgroundImage: "url('/themewagon/projects/project-bg.png')",
+          backgroundImage: "url('themewagon/projects/project-bg.png')",
         }}
       />
 

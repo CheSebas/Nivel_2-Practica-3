@@ -28,7 +28,7 @@ export default function Contact() {
         <div
           className="absolute right-0 top-0 w-full h-full bg-no-repeat bg-contain opacity-70 pointer-events-none"
           style={{
-            backgroundImage: "url('/themewagon/7.contact/image1.png')",
+            backgroundImage: "url('themewagon/7.contact/image1.png')",
             backgroundPosition: "center right",
           }}
         />
